@@ -369,5 +369,8 @@ def editar():
     resp3=int(input("---->"))
 
     if resp3== 1:
+        var=int(input(Digite o numero do seu livro:))
+        for len(livros) == var :
+            print("la")
         nome=input("--->")
         l1.SetNome(nome)
