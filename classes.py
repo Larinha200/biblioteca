@@ -7,6 +7,7 @@ class Livros:
           self.__Status__ = Status
 
 # get e set
+
     def GetNome (self):
         return self.__Nome__ 
     
