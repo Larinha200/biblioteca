@@ -1,5 +1,5 @@
 from funcao import *
-from  classes import *
+from classes import *
 from colorama import *
 init(autoreset=True)
 
