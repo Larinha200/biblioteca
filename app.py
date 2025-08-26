@@ -14,7 +14,6 @@ while True:
     if resp == 2:
         ls()
         listar(livros)
-        pass
 
     if resp == 3:
         pass
