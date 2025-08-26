@@ -1,4 +1,5 @@
 import os
+from classes import *
 
 def ls():
     os.system('pause')
