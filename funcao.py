@@ -13,6 +13,8 @@ def menu():
 # função para cadastro de novos livros
 def cadastro(Livros, livros):
     print('---VOCÊ ESCOLHEU CADASTRO---')
+    print("Selecione um genero: \n Digite:")
+    print("1-Romance \n2-Ficção \n3-Fantasia \n4-Terror \n5-Mistério \n6-Distopia \n7-Biografia \n8-Autobiografia \n9-Filosofia \n10-Religião/Espiritualidade \n11-Poesia \n12-LGBTQIA+ \n13-Literatura Infanto Juvenil \n14-Clássicos \n15-Mitologia")
     titulo = input('Qual o título: \n')
     autor = input('Qual o autor: \n')
     genero_literario = input('Qual o gênero literário: \n')
