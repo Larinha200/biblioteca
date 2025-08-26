@@ -30,7 +30,7 @@ def listar(livros):
     print("")
     
     if len (livros) == 0:
-        print("Nenhum livro cadastrado.")
+        print("Nenhum livro cadastrado.\n")
     else:
         for chave, valor in livros.items():
             print(f"{chave}° - \t{valor.GetNome()}")
