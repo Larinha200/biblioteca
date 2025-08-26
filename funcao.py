@@ -1,7 +1,7 @@
 import os 
 from classes import *
 from colorama import *
-init(autoreset= True)
+init(autoreset=True)
 
 def ls():
     os.system('pause')
@@ -10,7 +10,11 @@ def ls():
 def menu():
     print("\n Olá, seja bem-vindo(a) a nossa biblioteca! =)\n")
     print("Selecione:")
+<<<<<<< HEAD
     print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar os livros por editora \n 5- Listar por livros emprestados \n 6- Fazer a devolução de um livro\n 7- Emprestar livro\n 8- Remover livros \n 9- Listar Todos os Livros\n 0- Sair")
+=======
+    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar por livros emprestados \n 5- Fazer a devolução de um livro\n 6- Emprestar livro\n 7- Remover livros \n 8- Listar Todos os Livros\n  0- Sair")
+>>>>>>> e88c5a3a82cdaa48114b7a7c8fb06a53c8e0ef71
 
 # função para cadastro de novos livros
 def cadastro(Livros, livros):

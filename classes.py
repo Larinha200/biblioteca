@@ -20,8 +20,9 @@ class Livros:
     def GetEditora (self):
         return self.__Editora__
     
-    def GetStatus (self):
-        return self.__Status__ 
+    def GetStatus(self):
+        return "Disponível" if self.__Status__ == False else "Emprestado"
+
     
     def SetNome (self, Nome):
         self.__Nome__= Nome
