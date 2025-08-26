@@ -6,20 +6,20 @@ def ls():
     os.system('cls')
 
 def menu():
-    print("\nOlá, seja bem-vindo(a) a nossa biblioteca! =)")
+    print("\n Olá, seja bem-vindo(a) a nossa biblioteca! =)\n")
     print("Selecione:")
     print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar por livros emprestados \n 5- Fazer a devolução de um livro\n 6- Emprestar livro\n 7- Remover livros \n 8- Listar Todos os Livros\n 0- Sair")
 
 # função para cadastro de novos livros
 def cadastro(Livros, livros):
     while True:
-        print('---VOCÊ ESCOLHEU CADASTRO---')
-        print("Selecione um gênero: \n Digite:")
-        print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia \n 0- Sair") 
+        print('◆━━━━━━▣ VOCÊ ESCOLHEU CADASTRO ▣━━━━━━◆')
+        print("Selecione um gênero: \n Selecione:")
+        print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia \n 0- Sair\n") 
         resp2 = int(input('\n -->'))
     
         if resp2 == 1:
-            print("---VOCÊ SELECIONOU ROMANCE--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU ROMANCE ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -34,7 +34,7 @@ def cadastro(Livros, livros):
 
 
         elif resp2 == 2:
-            print("---VOCÊ SELECIONOU FICÇÃO--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU FICÇÃO ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -49,7 +49,7 @@ def cadastro(Livros, livros):
 
 
         elif resp2 == 3:
-            print("---VOCÊ SELECIONOU FANTASIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU FANTASIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -64,7 +64,7 @@ def cadastro(Livros, livros):
 
 
         elif resp2 == 4:
-            print("---VOCÊ SELECIONOU TERROR--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU TERROR ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -78,7 +78,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 5:
-            print("---VOCÊ SELECIONOU MISTÉRIO--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU MISTÉRIO ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -92,7 +92,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 6:
-            print("---VOCÊ SELECIONOU DISTOPIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU DISTOPIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -106,7 +106,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 7:
-            print("---VOCÊ SELECIONOU BIOGRAFIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU BIOGRAFIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -120,7 +120,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 8:
-            print("---VOCÊ SELECIONOU AUTOBIOGRAFIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU AUTOBIOGRAFIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -134,7 +134,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 9:
-            print("---VOCÊ SELECIONOU FILOSOFIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU FILOSOFIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -148,7 +148,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 10:
-            print("---VOCÊ SELECIONOU RELIGIÃO/ESPIRITUALIDADE--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU RELIGIÃO/ESPIRITUALIDADE ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -162,7 +162,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 11:
-            print("---VOCÊ SELECIONOU POESIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU POESIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -176,7 +176,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 12:
-            print("---VOCÊ SELECIONOU LGBTQIA+--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU LGBTQIA+ ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -190,7 +190,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 13:
-            print("---VOCÊ SELECIONOU LITERATURA INFANTO JUVENIL--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU LITERATURA INFANTO JUVENIL ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -205,7 +205,7 @@ def cadastro(Livros, livros):
 
 
         elif resp2 == 14:
-            print("---VOCÊ SELECIONOU CLÁSSICOS--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU CLÁSSICOS ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -219,7 +219,7 @@ def cadastro(Livros, livros):
             ls()
 
         elif resp2 == 15:
-            print("---VOCÊ SELECIONOU MITOLOGIA--- \n")
+            print("◆ ▬▬▬▬▬▬ VOCÊ SELECIONOU MITOLOGIA ▬▬▬▬▬▬ ◆ \n")
 
             titulo = input('Qual o título: \n')
             print('')
@@ -239,7 +239,7 @@ def cadastro(Livros, livros):
 
 #função para listar todos os livros
 def listar(livros):
-    print("-- LISTAR TODOS OS LIVROS ---")
+    print(" ◆━━━━━━▣ LISTAR TODOS OS LIVROS ▣━━━━━━◆ ")
     print("\n")
     
     if len (livros) == 0:
