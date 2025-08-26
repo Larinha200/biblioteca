@@ -1,7 +1,7 @@
 import os 
 from classes import *
 from colorama import *
-init(autoreset= True)
+init(autoreset=True)
 
 def ls():
     os.system('pause')
