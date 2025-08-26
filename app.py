@@ -1,34 +1,37 @@
 from funcao import *
 from  classes import *
 
-l1= Livros ("Para todos os garotos que eu já amei","Jenny Han", "Romance", "Intrínseca", False)
-l2= Livros (" A guerra dos furacões ", "Thea Guanzon","Romance", "Intrínseca", False )
-l3= Livros ("Tudo é rio","Carla Madeira","Ficção", "Record", False )
-l4= Livros ("O Hobbit","J. R. R. Tolkien", "Ficção", "HarperCollins ", False  )
-l5= Livros ("Percy Jackson: A batalha do labirinto", "Rick Riordan", "Fantasia", " Intrínseca", False )
-l6= Livros ("A rainha do nada", "Holly Black", "Fantasia", "Galera", False)
-l7= Livros ("Casas Estranhas Vol 1","Uketsu","Terror" , "Intrínseca", False )
-l8= Livros ("Jantar Secreto","Raphael Montes","Mistério", "Companhia Das Letras", False)
-l9= Livros ("Mentirosos", "E.Lockhart", "Mistério", "Seguinte", False)
-l10= Livros ("Divergente", "Veronica Roth","Distopia"," Rocco", False)
-l11= Livros ("Jogos vorazes","Suzanne Collins","Distopia"," Rocco", False)
-l12= Livros ("Ainda estou aqui ","Marcelo Rubens Paiva","Biografia","Alfaguara", False)
-l13= Livros ("O diário de Anne Frank ", "Anne Frank","Autobiografia", "Via Leitura", False )
-l14= Livros ("Metamorfose","Franz Kafka","Filosofia", "Principis", False)
-l15= Livros ("Crime e Castigo", "Fiódor Dostoiévski","Filosofia", "Editora 34", False)
-l16= Livros ("Imitação de cristo ", "Tomás de Kempis", "Religião/Espiritualidade", "Petra - NF", False)
-l17= Livros ("Umbanda: Uma história do Brasil ", "Luis Antonio Simas","Religião/Espiritualidade","Civilização Brasileira", False)
-l18= Livros ("Eu sempre morro", "Kaio Bruno Dias", "Poesia", "Devir, poesia e prosa", False)
-l19= Livros ("Desculpe o exagero, mas não sei sentir pouco", "Geffo Pinheiro", "Poesia", "Astra Cultura", False)
-l20= Livros ("Os dois morrem no final","Adam Silveira", "LGBTQIA+", "Intrínseca", False)
-l21= Livros ("Combina?", "Casey McQuiston", "LGBTQIA+", "Seguinte", False)
-l22= Livros ("Manual de Assassinato para boas garotas", "Holly Jackson", "Literatura Infanto Juvenil", "Intrínseca", False)
-l23= Livros ("As vantagens de ser invisível", "Stephen Chbosky", "Literatura Infanto Juvenil", "Rocco", False)
-l24= Livros ("Memórias Póstumas de Brás Cubas", "Machado de Assis", "Clássicos", "Penguin e Companhia Das Letras", False  )
-l25= Livros ("Origens da Mitologia ","Annette Giesecke", "Mitologia", "Darkside", False )
+l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)
+l2= Livros (Nome=" A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )
+l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )
+l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )
+l5= Livros (Nome="Percy Jackson: A batalha do labirinto", Autor="Rick Riordan",Genero= "Fantasia", Editora=" Intrínseca",Status=  False )
+l6= Livros (Nome="A rainha do nada",Autor= "Holly Black", Genero="Fantasia",Editora= "Galera",Status=  False)
+l7= Livros (Nome="Casas Estranhas Vol 1",Autor="Uketsu",Genero="Terror" , Editora="Intrínseca",Status=  False )
+l8= Livros (Nome="Jantar Secreto",Autor="Raphael Montes",Genero="Mistério",Editora= "Companhia Das Letras",Status=  False)
+l9= Livros (Nome="Mentirosos", Autor="E.Lockhart",Genero= "Mistério", Editora="Seguinte", Status= False)
+l10= Livros (Nome="Divergente",Autor= "Veronica Roth",Genero="Distopia",Editora=" Rocco", Status= False)
+l11= Livros (Nome="Jogos vorazes",Autor="Suzanne Collins",Genero="Distopia",Editora=" Rocco", Status= False)
+l12= Livros (Nome="Ainda estou aqui ",Autor="Marcelo Rubens Paiva",Genero="Biografia",Editora="Alfaguara", Status= False)
+l13= Livros (Nome="O diário de Anne Frank ",Autor= "Anne Frank",Genero="Autobiografia", Editora="Via Leitura", Status= False  )
+l14= Livros (Nome="Metamorfose",Autor="Franz Kafka",Genero="Filosofia", Editora="Principis",Status=  False)
+l15= Livros (Nome="Crime e Castigo", Autor="Fiódor Dostoiévski",Genero="Filosofia", Editora="Editora 34", Status= False)
+l16= Livros (Nome="Imitação de cristo ",Autor= "Tomás de Kempis",Genero="Religião/Espiritualidade",Editora= "Petra - NF",Status= False)
+l17= Livros (Nome="Umbanda: Uma história do Brasil ",Autor= "Luis Antonio Simas",Genero="Religião/Espiritualidade",Editora="Civilização Brasileira",Status=  False)
+l18= Livros (Nome="Eu sempre morro", Autor="Kaio Bruno Dias", Genero="Poesia", Editora="Devir, poesia e prosa",Status= False)
+l19= Livros (Nome="Desculpe o exagero, mas não sei sentir pouco", Autor="Geffo Pinheiro", Genero="Poesia", Editora="Astra Cultura",Status=  False)
+l20= Livros (Nome="Os dois morrem no final",Autor="Adam Silveira",Genero= "LGBTQIA+",Editora= "Intrínseca",Status=  False)
+l21= Livros (Nome="Combina?",Autor= "Casey McQuiston", Genero="LGBTQIA+",Editora= "Seguinte",Status=  False)
+l22= Livros (Nome="Manual de Assassinato para boas garotas",Autor= "Holly Jackson", Genero="Literatura Infanto Juvenil",Editora= "Intrínseca", Status= False)
+l23= Livros (Nome="As vantagens de ser invisível", Autor="Stephen Chbosky", Genero="Literatura Infanto Juvenil",Editora= "Rocco",Status=  False)
+l24= Livros (Nome="Memórias Póstumas de Brás Cubas", Autor="Machado de Assis", Genero="Clássicos", Editora="Penguin e Companhia Das Letras", Status= False  )
+l25= Livros (Nome="Origens da Mitologia ",Autor="Annette Giesecke", Genero="Mitologia",Editora= "Darkside",Status=  False )
 
 
 livros = {}
+
+livros['l1']= l1
+livros['l2']= l2
 
 while True:
     menu()

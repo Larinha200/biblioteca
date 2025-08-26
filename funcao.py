@@ -114,8 +114,6 @@ def cadastro(Livros, livros):
         else:
             pass
 
-
-
 #função para listar todos os livros
 def listar(livros):
     print("-- LISTAR TODOS OS LIVROS ---")
@@ -123,7 +121,6 @@ def listar(livros):
     
     if len (livros) == 0:
         print("Nenhum livro cadastrado.")
-        ls()
     else:
         for chave, valor in livros.items():
             print(f"{chave}° - \t{valor.GetNome()}")
