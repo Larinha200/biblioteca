@@ -9,7 +9,7 @@ while True:
 
     if resp == 1:
         ls()
-        cadastro(livros, Livros)
+        cadastro(Livros, livros)
 
     if resp == 2:
         pass
@@ -27,7 +27,4 @@ while True:
         pass
 
     if resp == 0:
-        print("Saindo do sistema...")
-        break
-    else:
-        print("Opção inválida. Tente novamente.")
+        pass
