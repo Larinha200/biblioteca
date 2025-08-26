@@ -1,7 +1,8 @@
 import os 
 from classes import *
 from colorama import *
-init(autoreset=True)
+init(autoreset= True)
+
 def ls():
     os.system('pause')
     os.system('cls')
@@ -258,3 +259,56 @@ def listar(livros):
             print(Fore.MAGENTA + f"\tStatus: ", end= "")
             print(valor.GetStatus())
             print("")
+            
+
+    
+# Função para listar livros por gênero
+def listar_por_genero(livros):
+    while True:
+        print(" ◆━━━━━━▣ LISTAR LIVROS POR GÊNERO ▣━━━━━━◆ \n")
+        print('Selecione:')
+        print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia \n 0- Voltar\n")
+
+        escolha = int(input('\n --> '))
+
+        generos_lista = {
+            1: "Romance",
+            2: "Ficção",
+            3: "Fantasia",
+            4: "Terror",
+            5: "Mistério",
+            6: "Distopia",
+            7: "Biografia",
+            8: "Autobiografia",
+            9: "Filosofia",
+            10: "Religião/Espiritualidade",
+            11: "Poesia",
+            12: "LGBTQIA+",
+            13: "Literatura Infanto Juvenil",
+            14: "Clássicos",
+            15: "Mitologia"
+        }
+
+        if escolha == 0:
+            break  # volta pro menu principal
+
+        if escolha < 0 or escolha > 15:   # <-- aqui evita erro
+            print("Opção inválida!\n")
+            continue
+
+        genero_escolhido = generos_lista[escolha]
+        print(f"\n◆━━ LIVROS DO GÊNERO: {genero_escolhido} ━━◆\n")
+
+        encontrados = False
+        for chave, livro in livros.items():
+            if livro.GetGenero() == genero_escolhido:
+                encontrados = True
+                print(f"{chave}° - Título: {livro.GetNome()}")
+                print(f"\tAutor: {livro.GetAutor()}")
+                print(f"\tEditora: {livro.GetEditora()}")
+                print(f"\tStatus: {livro.GetStatus()}\n")
+    
+
+        if not encontrados:
+            print("Nenhum livro cadastrado com este gênero.\n")
+        ls()
