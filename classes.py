@@ -1,8 +1,22 @@
 class Livros:
-     def __init__(self,Nome,Autor,Genero,Editora,Status):
+    def __init__(self,Nome,Autor,Genero,Editora,Status):
           self.__Nome__ = Nome
           self.__Autor__ = Autor
           self.__Genero__ = Genero
           self.__Editora__ = Editora
           self.__Status__ = Status
-        
+# get e set
+    def GetNome (self):
+        return self.__Nome__ 
+    
+    def GetAutor (self):
+        return  self.__Autor__
+    
+    def GetGenero (self):
+        return self.__Genero__
+     
+    def GetEditora (self):
+        return self.__Editora__
+    
+    def GetStatus (self):
+        return self.__Status__ 
