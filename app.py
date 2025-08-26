@@ -27,4 +27,7 @@ while True:
         pass
 
     if resp == 0:
-        pass
+        print("Saindo do sistema...")
+        break
+    else:
+        print("Opção inválida. Tente novamente.")
