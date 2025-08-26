@@ -12,6 +12,8 @@ while True:
         cadastro(Livros, livros)
 
     if resp == 2:
+        ls()
+        listar(livros)
         pass
 
     if resp == 3:

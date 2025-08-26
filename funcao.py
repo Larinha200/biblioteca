@@ -21,3 +21,10 @@ def cadastro(Livros, livros):
     livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = genero_literario, Editora = editora, Status = False)
     print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero {genero_literario} foi adicionado com sucesso!')
     ls()
+
+def listar(livros):
+    print("--LISTAR TODOS OS LIVROS---")
+    print("")
+    
+    for chave, valor in livros.items():
+        print(f"{chave}° - \t{valor.GetNome()}\n\t{valor.GetAutor()}\n\t{valor.GetGenero()}\n\t{valor.GetEditora()}\n\t{valor.GetStatus}")
