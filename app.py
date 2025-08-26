@@ -1,5 +1,6 @@
 from funcao import *
 from  classes import *
+
 l1= Livros ("Para todos os garotos que eu já amei","Jenny Han", "Romance", "Intrínseca", False)
 l2= Livros (" A guerra dos furacões ", "Thea Guanzon","Romance", "Intrínseca", False )
 l3= Livros ("Tudo é rio","Carla Madeira","Ficção", "Record", False )
@@ -38,7 +39,8 @@ while True:
         cadastro(livros, Livros)
 
     if resp == 2:
-        pass
+        ls()
+        listar(livros)
 
     if resp == 3:
         pass
