@@ -1,6 +1,7 @@
 import os 
 from classes import *
-
+from colorama import *
+init(autoreset=True)
 def ls():
     os.system('pause')
     os.system('cls')
@@ -246,9 +247,14 @@ def listar(livros):
         print("Nenhum livro cadastrado.")
     else:
         for chave, valor in livros.items():
-            print(f"{chave}° - \t{valor.GetNome()}")
-            print(f"\tAutor: {valor.GetAutor()}")
-            print(f"\tGênero: {valor.GetGenero()}")
-            print(f"\tEditora: {valor.GetEditora()}")
-            print(f"\tStatus: {valor.GetStatus()}")
+            print(Fore.MAGENTA + f"{chave}° - \tNome: ", end= "")
+            print(valor.GetNome())
+            print(Fore.MAGENTA + f"\tAutor: ", end= "")
+            print(valor.GetAutor())
+            print(Fore.MAGENTA + f"\tGênero:", end= "")
+            print( valor.GetGenero())
+            print(Fore.MAGENTA + f"\tEditora: ", end= "")
+            print(valor.GetEditora())
+            print(Fore.MAGENTA + f"\tStatus: ", end= "")
+            print(valor.GetStatus())
             print("")

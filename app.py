@@ -1,5 +1,7 @@
 from funcao import *
 from  classes import *
+from colorama import *
+init(autoreset=True)
 
 l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)
 l2= Livros (Nome="A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )
@@ -85,6 +87,7 @@ while True:
     if resp == 8: 
         ls()
         listar(livros)
+        
 
     if resp == 0:
         pass
