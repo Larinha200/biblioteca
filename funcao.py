@@ -19,5 +19,5 @@ def cadastro(Livros, livros):
     editora = input('Qual a editora: \n')
 
     livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = genero_literario, Editora = editora, Status = False)
-    print('O livro {titulo},')
+    print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero {genero_literario} foi adicionado com sucesso!')
     ls()
