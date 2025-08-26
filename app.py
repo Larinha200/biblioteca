@@ -88,6 +88,7 @@ while True:
     if resp == 8: 
         ls()
         listar(livros)
+        ls()
 
     if resp == 0:
         pass
