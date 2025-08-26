@@ -6,6 +6,7 @@ livros = {}
 while True:
     ls()
     menu()
+    resp = int(input("--->"))
 
     if resp == 1:
         pass
