@@ -15,7 +15,7 @@ def cadastro(Livros, livros):
     while True:
         print('---VOCÊ ESCOLHEU CADASTRO---')
         print("Selecione um gênero: \n Digite:")
-        print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia\n") 
+        print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia \n 0- Sair") 
         resp2 = int(input('\n -->'))
     
         if resp2 == 1:
@@ -77,42 +77,165 @@ def cadastro(Livros, livros):
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Terror foi adicionado com sucesso!')
             ls()
 
-
         elif resp2 == 5:
-            pass
+            print("---VOCÊ SELECIONOU MISTÉRIO--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Mistério', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Mistério foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 6:
-            pass
+            print("---VOCÊ SELECIONOU DISTOPIA--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Distopia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Distopia foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 7:
-            pass
+            print("---VOCÊ SELECIONOU BIOGRAFIA--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Biografia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Biografia foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 8:
-            pass
+            print("---VOCÊ SELECIONOU AUTOBIOGRAFIA--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Autobiografia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Autobiografia foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 9:
-            pass
+            print("---VOCÊ SELECIONOU FILOSOFIA--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Filosofia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Filosofia foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 10:
-            pass
+            print("---VOCÊ SELECIONOU RELIGIÃO/ESPIRITUALIDADE--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Religião/Espiritualidade', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Religião/Espiritualidade foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 11:
-            pass
+            print("---VOCÊ SELECIONOU POESIA--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Poesia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Poesia foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 12:
-            pass
+            print("---VOCÊ SELECIONOU LGBTQIA+--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'LGBTQIA+', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero LGBTQIA+ foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 13:
-            pass
+            print("---VOCÊ SELECIONOU LITERATURA INFANTO JUVENIL--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Literatura Infanto Juvenil', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Literatura Infanto Juvenil foi adicionado com sucesso!')
+            ls()
+
 
         elif resp2 == 14:
-            pass
+            print("---VOCÊ SELECIONOU CLÁSSICOS--- \n")
+
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Clássicos', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Clássicos foi adicionado com sucesso!')
+            ls()
 
         elif resp2 == 15:
-            pass
+            print("---VOCÊ SELECIONOU MITOLOGIA--- \n")
 
+            titulo = input('Qual o título: \n')
+            print('')
+            autor = input('Qual o autor: \n') 
+            print('')
+            editora = input('Qual a editora: \n')
+            print('\n')
+
+            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Mitologia', Editora = editora, Status = False)
+            print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Mitologia foi adicionado com sucesso!')
+            ls()
+
+        elif resp2 == 0:
+            break
         else:
-            pass
+            print("Número invalido")
 
 #função para listar todos os livros
 def listar(livros):
