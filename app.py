@@ -67,7 +67,8 @@ while True:
         cadastro(Livros, livros)
 
     if resp == 2:
-        pass
+        ls()
+        listar_por_genero(livros)
 
     if resp == 3:
         pass
@@ -87,7 +88,6 @@ while True:
     if resp == 8: 
         ls()
         listar(livros)
-        
 
     if resp == 0:
         pass

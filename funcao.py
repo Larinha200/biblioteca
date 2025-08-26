@@ -1,7 +1,8 @@
 import os 
 from classes import *
 from colorama import *
-init(autoreset=True)
+init(autoreset= True)
+
 def ls():
     os.system('pause')
     os.system('cls')
@@ -258,3 +259,29 @@ def listar(livros):
             print(Fore.MAGENTA + f"\tStatus: ", end= "")
             print(valor.GetStatus())
             print("")
+
+    
+# Função para listar livros por gênero
+def listar_por_genero(livros):
+    print(" ◆━━━━━━▣ LISTAR LIVROS POR GÊNERO ▣━━━━━━◆ \n")
+    
+    if len(livros) == 0:
+        print("Nenhum livro cadastrado com este gênero.\n")
+    else:
+        generos = {}
+        # Agrupando livros por gênero
+        for genero, livro in livros.items():
+            genero = livro.GetGenero()
+            if genero not in generos:
+                generos[genero] = []
+            generos[genero].append(livro)
+        # Exibindo os livros agrupados por gênero
+        for genero, lista_livros in generos.items():
+            print(f"\n▶ Gênero: {genero}")
+            for livro in lista_livros:
+                print(f"\tTítulo: {livro.GetNome()}")
+                print(f"\tAutor: {livro.GetAutor()}")
+                print(f"\tEditora: {livro.GetEditora()}")
+                print(f"\tStatus: {livro.GetStatus()}")
+                print("")
+                print("asaaaaateste2")
