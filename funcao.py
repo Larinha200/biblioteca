@@ -17,6 +17,7 @@ def cadastro(Livros, livros):
     autor = input('Qual o autor: \n')
     genero_literario = input('Qual o gênero literário: \n')
     editora = input('Qual a editora: \n')
-    livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = genero_literario, Editora = editora  )
+
+    livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = genero_literario, Editora = editora, Status = False)
     ls()
     ls()
