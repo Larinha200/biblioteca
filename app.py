@@ -1,15 +1,15 @@
-import os
 from funcao import *
+from  classes import *
 
 livros = {}
 
 while True:
-    ls()
     menu()
     resp = int(input("--->"))
 
     if resp == 1:
-        pass
+        ls()
+        cadastro(livros, Livros)
 
     if resp == 2:
         pass
