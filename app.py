@@ -2,7 +2,7 @@ from funcao import *
 from  classes import *
 
 l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)
-l2= Livros (Nome=" A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )
+l2= Livros (Nome="A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )
 l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )
 l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )
 l5= Livros (Nome="Percy Jackson: A batalha do labirinto", Autor="Rick Riordan",Genero= "Fantasia", Editora=" Intrínseca",Status=  False )
@@ -30,8 +30,31 @@ l25= Livros (Nome="Origens da Mitologia ",Autor="Annette Giesecke", Genero="Mito
 
 livros = {}
 
-livros['l1']= l1
-livros['l2']= l2
+livros['1']= l1
+livros['2']= l2
+livros['3']= l3
+livros['4']= l4
+livros['5']= l5
+livros['6']= l6
+livros['7']= l7
+livros['8']= l8
+livros['9']= l9
+livros['10']= l10
+livros['11']= l11
+livros['12']= l12
+livros['13']= l13
+livros['14']= l14
+livros['15']= l15
+livros['16']= l16
+livros['17']= l17
+livros['18']= l18
+livros['19']= l19
+livros['20']= l20
+livros['21']= l21
+livros['22']= l22
+livros['23']= l23
+livros['24']= l24
+livros['25']= l25
 
 while True:
     menu()
