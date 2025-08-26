@@ -10,7 +10,7 @@ def ls():
 def menu():
     print("\n Olá, seja bem-vindo(a) a nossa biblioteca! =)\n")
     print("Selecione:")
-    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar por livros emprestados \n 5- Fazer a devolução de um livro\n 6- Emprestar livro\n 7- Remover livros \n 8- Listar Todos os Livros\n 0- Sair")
+    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar os livros por editora \n 5- Listar por livros emprestados \n 6- Fazer a devolução de um livro\n 7- Emprestar livro\n 8- Remover livros \n 9- Listar Todos os Livros\n 0- Sair")
 
 # função para cadastro de novos livros
 def cadastro(Livros, livros):
@@ -311,4 +311,56 @@ def listar_por_genero(livros):
 
         if not encontrados:
             print("Nenhum livro cadastrado com este gênero.\n")
+        ls()
+
+# Função para listar livros por editora
+def listar_por_editora(livros):
+    while True:
+        print(" ◆━━━━━━▣ LISTAR LIVROS POR EDITORA ▣━━━━━━◆ \n")
+        print('Selecione:')
+        print("1- Intrínseca \n2- Record \n3- HarperCollins \n4- Galera \n5- Companhia Das Letras \n6- Seguinte \n7- Rocco \n8- Alfaguara \n9- Via Leitura \n10- Principis \n11- Editora 34 \n12- Petra - NF \n13- Civilização Brasileira \n14- Devir, poesia e prosa \n15- Astra Cultura \n16- Penguin e Companhia Das Letras \n17- Darkside \n 0- Voltar")
+
+        escolha = int(input('\n --> '))
+
+        editora_lista = {
+            1: "Intrínseca",
+            2: "Record",
+            3: "HarperCollins ",
+            4: "Galera ",
+            5: "Companhia Das Letras",
+            6: "Seguinte ",
+            7: "Rocco ",
+            8: "Alfaguara ",
+            9: "Via Leitura",
+            10: "Principis ",
+            11: "Editora 34",
+            12: "Petra - NF",
+            13: "Civilização Brasileira",
+            14: "Devir, poesia e prosa",
+            15: "Astra Cultura",
+            16: "Penguin e Companhia Das Letras",
+            17: "Darkside"
+        }
+
+        if escolha == 0:
+            break  # volta pro menu principal
+
+        if escolha < 0 or escolha > 15:   # <-- aqui evita erro
+            print("Opção inválida!\n")
+            continue
+
+        editora_escolhida = editora_lista[escolha]
+        print(f"\n◆━━ LIVROS Da EDITORA: {editora_escolhida} ━━◆\n")
+
+        encontrados = False
+        for chave, livro in livros.items():
+            if livro.GetEditora() == editora_escolhida:
+                encontrados = True
+                print(f"{chave}° - Título: {livro.GetNome()}")
+                print(f"\tAutor: {livro.GetAutor()}")
+                print(f"\tGênero: {livro.GetGenero()}")
+                print(f"\tStatus: {livro.GetStatus()}\n")
+    
+        if not encontrados:
+            print("Nenhum livro cadastrado com esta editora.\n")
         ls()
