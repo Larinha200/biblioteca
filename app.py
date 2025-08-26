@@ -1,2 +1,1 @@
-print('Teste')
-print('Teste2')
+livros = {}
