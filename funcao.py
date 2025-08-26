@@ -8,7 +8,7 @@ def ls():
 def menu():
     print("Olá, seja bem-vindo(a) a nossa biblioteca! =)")
     print("Digite:")
-    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar por livros emprestados \n 5- Fazer a devolução de um livro\n 6-Emprestar livro\n 7- Remover livros \n 8- Listar Todos os Livros\n 0-Sair")
+    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar por livros emprestados \n 5- Fazer a devolução de um livro\n 6- Emprestar livro\n 7- Remover livros \n 8- Listar Todos os Livros\n 0- Sair")
 
 # função para cadastro de novos livros
 def cadastro(Livros, livros):

@@ -32,15 +32,14 @@ livros = {}
 
 while True:
     menu()
-    resp = int(input("--->"))
+    resp = int(input("\n---> "))
 
     if resp == 1:
         ls()
-        cadastro(livros, Livros)
+        cadastro(Livros, livros)
 
     if resp == 2:
-        ls()
-        listar(livros)
+        pass
 
     if resp == 3:
         pass
@@ -53,6 +52,13 @@ while True:
 
     if resp == 6: 
         pass
+
+    if resp == 7: 
+        pass
+
+    if resp == 8: 
+        ls()
+        listar(livros)
 
     if resp == 0:
         pass
