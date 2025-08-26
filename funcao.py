@@ -27,7 +27,7 @@ def listar(livros):
     print("-- LISTAR TODOS OS LIVROS ---")
     print("")
     
-    if not livros:
+    if len (livros) == 0:
         print("Nenhum livro cadastrado.")
     else:
         for chave, valor in livros.items():
