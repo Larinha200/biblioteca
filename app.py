@@ -27,4 +27,4 @@ while True:
         pass
 
     if resp == 0:
-        break
+        pass
