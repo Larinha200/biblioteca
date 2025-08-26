@@ -259,6 +259,7 @@ def listar(livros):
             print(Fore.MAGENTA + f"\tStatus: ", end= "")
             print(valor.GetStatus())
             print("")
+            
 
     
 # Função para listar livros por gênero
@@ -268,7 +269,7 @@ def listar_por_genero(livros):
         print('Selecione:')
         print("\n 1- Romance \n 2- Ficção \n 3- Fantasia \n 4- Terror \n 5- Mistério \n 6- Distopia \n 7- Biografia \n 8- Autobiografia \n 9- Filosofia \n 10- Religião/Espiritualidade \n 11- Poesia \n 12- LGBTQIA+ \n 13- Literatura Infanto Juvenil \n 14- Clássicos \n 15- Mitologia \n 0- Voltar\n")
 
-        escolha = int(input('\n --> '))  
+        escolha = int(input('\n --> '))
 
         generos_lista = {
             1: "Romance",
@@ -306,6 +307,8 @@ def listar_por_genero(livros):
                 print(f"\tAutor: {livro.GetAutor()}")
                 print(f"\tEditora: {livro.GetEditora()}")
                 print(f"\tStatus: {livro.GetStatus()}\n")
+    
 
         if not encontrados:
             print("Nenhum livro cadastrado com este gênero.\n")
+        ls()
