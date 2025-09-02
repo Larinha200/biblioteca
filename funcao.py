@@ -564,7 +564,10 @@ def editar(livros):
     if resp3 == 1:
         listar(livros)
         var = input("Digite o número do seu livro: ")
-        
+        if var not in livros:
+            print("Esse id não existe")
+            return
+
         for chave , valor in livros.items():
             if chave == var:
                 
@@ -573,15 +576,15 @@ def editar(livros):
                     print(nome)
                     ls()
                     menu()
-            if chave != var:
-                    print("esse id n existe")
-                    break
-                    
+            
                 
             
     elif resp3 == 2:
         listar(livros)
         var = input("Digite o número do seu livro: ")
+        if var not in livros:
+            print("Esse id não existe")
+            return
 
         for chave , valor in livros.items():
             if chave == var:
@@ -591,13 +594,14 @@ def editar(livros):
                 print(autor)
                 ls()
                 menu()
-            if chave != var:
-                    print("esse id n existe")
-                    break
+            
 
     elif resp3 == 3:
         listar(livros)
         var = input("Digite o número do seu livro: ")
+        if var not in livros:
+            print("Esse id não existe")
+            return
 
         for chave , valor in livros.items():
             if chave == var:
@@ -608,13 +612,14 @@ def editar(livros):
                 ls()
                 menu()
                 
-            if chave != var:
-                    print("esse id n existe")
-                    break
+            
     
     elif resp3 == 4:
         listar(livros)
         var = input("Digite o número do seu livro: ")
+        if var not in livros:
+            print("Esse id não existe")
+            return
 
         for chave , valor in livros.items():
             if chave == var:
@@ -625,6 +630,4 @@ def editar(livros):
                 ls()
                 menu()
 
-            if chave != var:
-                    print("esse id n existe")
-                    break
+            
