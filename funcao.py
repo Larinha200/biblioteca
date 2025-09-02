@@ -364,12 +364,13 @@ def listar_por_editora(livros):
         if not encontrados:
             print("Nenhum livro cadastrado com esta editora.\n")
         ls()
+
 def editar():    
     print("digite: \n1-Nome \n2-Autor \n3-Genero \nEditora")    
     resp3=int(input("---->"))
 
     if resp3== 1:
-        var=int(input(Digite o numero do seu livro:))
+        var=int(input("Digite o numero do seu livro:"))
         for len(livros) == var :
             print("la")
         nome=input("--->")
