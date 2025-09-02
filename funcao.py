@@ -301,7 +301,7 @@ def listar_por_genero(livros):
 
         encontrados = False
         for chave, livro in livros.items():
-            if livro.GetGenero() == genero_escolhido:
+            if livro.GetGenero().strip().lower() == genero_escolhido.strip().lower():
                 encontrados = True
                 print(f"{chave}° - Título: {livro.GetNome()}")
                 print(f"\tAutor: {livro.GetAutor()}")
@@ -354,7 +354,7 @@ def listar_por_editora(livros):
 
         encontrados = False
         for chave, livro in livros.items():
-            if livro.GetEditora() == editora_escolhida:
+            if livro.GetEditora().strip().lower() == editora_escolhida.strip().lower():
                 encontrados = True
                 print(f"{chave}° - Título: {livro.GetNome()}")
                 print(f"\tAutor: {livro.GetAutor()}")
@@ -415,7 +415,7 @@ def listar_por_autor(livros):
 
         encontrados = False
         for chave, livro in livros.items():
-            if livro.GetAutor() == autor_escolhido:
+            if livro.GetAutor().strip().lower() == autor_escolhido.strip().lower():
                 encontrados = True
                 print(f"{chave}° - Título: {livro.GetNome()}")
                 print(f"\tEditora: {livro.GetEditora()}")
