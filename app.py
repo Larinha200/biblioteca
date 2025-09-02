@@ -108,3 +108,5 @@ while True:
     else:
         print("Número invalido")
 
+print("Saindo...")
+
