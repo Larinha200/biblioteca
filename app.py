@@ -83,16 +83,24 @@ while True:
         ls()
 
     elif resp == 5:
+        ls()
         listar_emprestados(livros)
+        ls()
 
-    elif resp == 6: 
+    elif resp == 6:
+        ls()
         devolver_livro(livros)
+        ls()
 
     elif resp == 7: 
+        ls()
         emprestar_livro(livros)
+        ls()
 
-    elif resp == 8: 
+    elif resp == 8:
+        ls() 
         remover_livro(livros)
+        ls()
 
     elif resp == 9: 
         ls()
@@ -100,7 +108,9 @@ while True:
         ls()
 
     elif resp == 10:
+        ls()
         editar()
+        ls()
 
     elif resp == 0:
         break
