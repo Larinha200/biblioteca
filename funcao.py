@@ -463,7 +463,7 @@ def emprestar_livro(livros):
         return
 
     try:
-        codigo = int(input("Digite o número do livro que deseja emprestar: "))
+        codigo = input("Digite o número do livro que deseja emprestar: ")
         if codigo not in livros:
             print("Código de livro não encontrado!")
             ls()
