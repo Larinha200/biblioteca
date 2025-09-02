@@ -100,7 +100,7 @@ while True:
         ls()
 
     elif resp == 10:
-        pass
+        editar()
 
     elif resp == 0:
         break
