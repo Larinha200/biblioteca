@@ -16,7 +16,7 @@ guardas as informações denominadas no "def__init__"** <br>
           self.__Status__ = Status     # atributo de instância para os status na ual se encontra a obra (emprestado ou disponível)
 
 
-
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
 
 **Já apartir desta parte do código ela tera como função definir um método de classe para poder retornar o valor armazenado no atributo** <br> 
@@ -42,30 +42,31 @@ guardas as informações denominadas no "def__init__"** <br>
         return "Disponível" if self.__Status__ == False else "Emprestado"     # retorna esse valor atribuido que está armazenado no objeto
 
 
-**Este trecho   **<br>
-    
-     def SetNome (self, Nome):     #
-        self.__Nome__= Nome     #
-        return self.__Nome__     #
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
+
+**Este trecho define um método setter, na qual recebe um valor, atribui este valor ao atributo do objeto e retorno o valor atribuído**<br>
     
-     def SetAutor (self,Autor):     #
-        self.__Autor__ = Autor     #
-        return  self.__Autor__     #
+     def SetNome (self, Nome):     # parâmetro para passar com um novo nome
+        self.__Nome__= Nome     # faz uma atribuição do valor passado para o atributo do objeto
+        return self.__Nome__     # é um método utilizado para retornar o valor na qual acabou de ser salvo
 
     
-     def SetGenero (self, Genero):     #
-        self.__Genero__ = Genero     #
-        return self.__Genero__     #
+     def SetAutor (self,Autor):     # parâmetro para passar com um novo nome
+        self.__Autor__ = Autor     # faz uma atribuição do valor passado para o atributo do objeto
+        return  self.__Autor__     # é um método utilizado para retornar o valor na qual acabou de ser salvo
 
     
-     def SetEditora (self, Editora):     #
-        self.__Editora__ = Editora     #
-        return self.__Editora__     #
+     def SetGenero (self, Genero):     # parâmetro para passar com um novo nome
+        self.__Genero__ = Genero     # faz uma atribuição do valor passado para o atributo do objeto
+        return self.__Genero__     # é um método utilizado para retornar o valor na qual acabou de ser salvo
 
     
-     def SetStatus (self, Status):     #
-        self.__Status__ = Status     #
-        return self.__Status__      # 
+     def SetEditora (self, Editora):     # parâmetro para passar com um novo nome
+        self.__Editora__ = Editora     # faz uma atribuição do valor passado para o atributo do objeto
+        return self.__Editora__     # é um método utilizado para retornar o valor na qual acabou de ser salvo
 
-
+    
+     def SetStatus (self, Status):     # parâmetro para passar com um novo nome
+        self.__Status__ = Status     # faz uma atribuição do valor passado para o atributo do objeto
+        return self.__Status__      # é um método utilizado para retornar o valor na qual acabou de ser salvo
