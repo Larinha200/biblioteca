@@ -1,3 +1,5 @@
+The background color is `#ffffff` for light mode and `#0969DA` for dark mode.
+
 # PROJETO BIBLIOTECA
 
 ### Explicação do código da subpasta por partes -> classe.py
