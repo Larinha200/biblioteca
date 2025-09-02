@@ -10,7 +10,7 @@ def ls():
 def menu():
     print("\n Olá, seja bem-vindo(a) a nossa biblioteca! =)\n")
     print("Selecione:")
-    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar os livros por editora \n 5- Listar por livros emprestados \n 6- Fazer a devolução de um livro\n 7- Emprestar livro\n 8- Remover livros \n 9- Listar Todos os Livros\n 0- Sair")
+    print("\n 1- Cadastre um livro \n 2- Listar os livros pelo genero \n 3- Listar os livros pelo autor \n 4- Listar os livros por editora \n 5- Listar por livros emprestados \n 6- Fazer a devolução de um livro\n 7- Emprestar livro\n 8- Remover livros \n 9- Listar Todos os Livros\n 10- Editar livros\n 0- Sair")
 
 # função para cadastro de novos livros
 def cadastro(Livros, livros):
@@ -475,7 +475,8 @@ def emprestar_livro(livros):
             return
 
 # Realizar empréstimo
-        livro.SetStatus(True)# True significa emprestadoprint(f"\n✅ Livro '{livro.GetNome()}' emprestado com sucesso!")
+        livro.SetStatus(True)# True significa emprestado
+        print(f"\n✅ Livro '{livro.GetNome()}' emprestado com sucesso!")
 
     except ValueError:
         print("Código inválido!")
@@ -513,8 +514,8 @@ def devolver_livro(livros):
             return
 
 # Realizar devolução
-        livro.SetStatus(False)# False significa disponívelprint
-        (f"\n✅ Livro '{livro.GetNome()}' devolvido com sucesso!")
+        livro.SetStatus(False)# False significa disponível
+        print(f"\n✅ Livro '{livro.GetNome()}' devolvido com sucesso!")
 
     except ValueError:
         print("Código inválido!")
