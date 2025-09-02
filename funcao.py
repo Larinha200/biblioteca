@@ -364,4 +364,9 @@ def listar_por_editora(livros):
         if not encontrados:
             print("Nenhum livro cadastrado com esta editora.\n")
         ls()
+<<<<<<< HEAD
 
+=======
+
+
+>>>>>>> 6a252db518ad4dc9e9d8d3ac3bb077febe59632f
