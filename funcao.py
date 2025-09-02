@@ -354,7 +354,7 @@ def listar_por_editora(livros):
 
         encontrados = False
         for chave, livro in livros.items():
-            if livro.GetEditora().strip() == editora_escolhida:
+            if livro.GetEditora().strip() == editora_escolhida.strip():
                 encontrados = True
                 print(f"{chave}° - Título: {livro.GetNome()}")
                 print(f"\tAutor: {livro.GetAutor()}")
@@ -406,7 +406,7 @@ def listar_por_autor(livros):
         if escolha == 0:
             break  # volta pro menu principal
 
-        if escolha < 0 or escolha > 15:   # <-- aqui evita erro
+        if escolha < 0 or escolha > 26:   # <-- aqui evita erro
             print("Opção inválida!\n")
             continue
 
