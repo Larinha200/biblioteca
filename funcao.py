@@ -463,7 +463,7 @@ def emprestar_livro(livros):
         return
 
     try:
-        codigo = input("Digite o número do livro que deseja emprestar: ")
+        codigo = int(input("Digite o número do livro que deseja emprestar: "))
         if codigo not in livros:
             print("Código de livro não encontrado!")
             ls()
@@ -562,54 +562,24 @@ def editar(livros):
     resp3 = int(input("----> "))
     
     if resp3 == 1:
-        listar(livros)
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                
                 nome = input("---> ")
                 valor.SetNome(nome)
                 print(nome)
                 ls()
                 menu()
-                
             
     elif resp3 == 2:
-        listar(livros)
+
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                
                 autor = input("---> ")
                 valor.SetAutor(autor)
                 print(autor)
-                ls()
-                menu()
-
-    elif resp3 == 3:
-        listar(livros)
-        var = input("Digite o número do seu livro: ")
-
-        for chave , valor in livros.items():
-            if chave == var:
-                
-                genero = input("---> ")
-                valor.SetGenero(genero)
-                print(genero)
-                ls()
-                menu()
-    
-    elif resp3 == 4:
-        listar(livros)
-        var = input("Digite o número do seu livro: ")
-
-        for chave , valor in livros.items():
-            if chave == var:
-                
-                editora = input("---> ")
-                valor.SetEditora(editora)
-                print(editora)
                 ls()
                 menu()
