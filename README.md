@@ -101,33 +101,36 @@ guardas as informações denominadas no "def__init__"** <br>
     l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )     # informações sobe o livro nº 3 "Tudo é rio"
     l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )     # informações sobre o livro nº 4 "O hobbit"
     l5= Livros (Nome="Percy Jackson: A batalha do labirinto", Autor="Rick Riordan",Genero= "Fantasia", Editora=" Intrínseca",Status=  False )     # informações sobre o livro nº 5 "Percy Jackson: A batalha do labirinto"
-    l6= Livros (Nome="A rainha do nada",Autor= "Holly Black", Genero="Fantasia",Editora= "Galera",Status=  False)     # informações sobre 
-    l7= Livros (Nome="Casas Estranhas Vol 1",Autor="Uketsu",Genero="Terror" , Editora="Intrínseca",Status=  False )     #
-    l8= Livros (Nome="Jantar Secreto",Autor="Raphael Montes",Genero="Mistério",Editora= "Companhia Das Letras",Status=  False)     #
-    l9= Livros (Nome="Mentirosos", Autor="E.Lockhart",Genero= "Mistério", Editora="Seguinte", Status= False)     #
-    l10= Livros (Nome="Divergente",Autor= "Veronica Roth",Genero="Distopia",Editora=" Rocco", Status= False)     #
-    l11= Livros (Nome="Jogos vorazes",Autor="Suzanne Collins",Genero="Distopia",Editora=" Rocco", Status= False)     #
-    l12= Livros (Nome="Ainda estou aqui ",Autor="Marcelo Rubens Paiva",Genero="Biografia",Editora="Alfaguara", Status= False)     #
-    l13= Livros (Nome="O diário de Anne Frank ",Autor= "Anne Frank",Genero="Autobiografia", Editora="Via Leitura", Status= False  )     #
-    l14= Livros (Nome="Metamorfose",Autor="Franz Kafka",Genero="Filosofia", Editora="Principis",Status=  False)     #
-    l15= Livros (Nome="Crime e Castigo", Autor="Fiódor Dostoiévski",Genero="Filosofia", Editora="Editora 34", Status= False)     #
-    l16= Livros (Nome="Imitação de cristo ",Autor= "Tomás de Kempis",Genero="Religião/Espiritualidade",Editora= "Petra - NF",Status= False)     #
-    l17= Livros (Nome="Umbanda: Uma história do Brasil ",Autor= "Luis Antonio Simas",Genero="Religião/Espiritualidade",Editora="Civilização Brasileira",Status=  False)     #
-    l18= Livros (Nome="Eu sempre morro", Autor="Kaio Bruno Dias", Genero="Poesia", Editora="Devir, poesia e prosa",Status= False)     #
-    l19= Livros (Nome="Desculpe o exagero, mas não sei sentir pouco", Autor="Geffo Pinheiro", Genero="Poesia", Editora="Astra Cultura",Status=  False)     #
-    l20= Livros (Nome="Os dois morrem no final",Autor="Adam Silveira",Genero= "LGBTQIA+",Editora= "Intrínseca",Status=  False)     #
-    l21= Livros (Nome="Combina?",Autor= "Casey McQuiston", Genero="LGBTQIA+",Editora= "Seguinte",Status=  False)     #
-    l22= Livros (Nome="Manual de Assassinato para boas garotas",Autor= "Holly Jackson", Genero="Literatura Infanto Juvenil",Editora= "Intrínseca", Status= False)     #
-    l23= Livros (Nome="As vantagens de ser invisível", Autor="Stephen Chbosky", Genero="Literatura Infanto Juvenil",Editora= "Rocco",Status=  False)     #
-    l24= Livros (Nome="Memórias Póstumas de Brás Cubas", Autor="Machado de Assis", Genero="Clássicos", Editora="Penguin e Companhia Das Letras", Status= False  )     #
-    l25= Livros (Nome="Origens da Mitologia ",Autor="Annette Giesecke", Genero="Mitologia",Editora= "Darkside",Status=  False )     #
+    l6= Livros (Nome="A rainha do nada",Autor= "Holly Black", Genero="Fantasia",Editora= "Galera",Status=  False)     # informações sobre o livro nº 6 "A rainha do nada"
+    l7= Livros (Nome="Casas Estranhas Vol 1",Autor="Uketsu",Genero="Terror" , Editora="Intrínseca",Status=  False )     # informações sobre o libvro nº 7 "Casas estranhas"
+    l8= Livros (Nome="Jantar Secreto",Autor="Raphael Montes",Genero="Mistério",Editora= "Companhia Das Letras",Status=  False)     # informações sobre o livro nº 8 "Jantar secreto"
+    l9= Livros (Nome="Mentirosos", Autor="E.Lockhart",Genero= "Mistério", Editora="Seguinte", Status= False)     # infomações sobre o livro nº 9 "Mentirosos"
+    l10= Livros (Nome="Divergente",Autor= "Veronica Roth",Genero="Distopia",Editora=" Rocco", Status= False)     # informações sobre  livro nº 10 "Divergente"
+    l11= Livros (Nome="Jogos vorazes",Autor="Suzanne Collins",Genero="Distopia",Editora=" Rocco", Status= False)     # informações sobre o livro nº 11 "Jogos vorazes"
+    l12= Livros (Nome="Ainda estou aqui ",Autor="Marcelo Rubens Paiva",Genero="Biografia",Editora="Alfaguara", Status= False)     # informações sobre o livro nº 12 "Ainda estou aqui"
+    l13= Livros (Nome="O diário de Anne Frank ",Autor= "Anne Frank",Genero="Autobiografia", Editora="Via Leitura", Status= False  )     # informações sobre o livro nº 13 "O diário de Anne Frank"
+    l14= Livros (Nome="Metamorfose",Autor="Franz Kafka",Genero="Filosofia", Editora="Principis",Status=  False)     # informações sobre o livro nº 14 "Metamorfose"
+    l15= Livros (Nome="Crime e Castigo", Autor="Fiódor Dostoiévski",Genero="Filosofia", Editora="Editora 34", Status= False)     # informações sobre o livro nº 15 "Crime e Castigo"
+    l16= Livros (Nome="Imitação de cristo ",Autor= "Tomás de Kempis",Genero="Religião/Espiritualidade",Editora= "Petra - NF",Status= False)     # informações sobre o livro nº 16 "Imitação de cristo"
+    l17= Livros (Nome="Umbanda: Uma história do Brasil ",Autor= "Luis Antonio Simas",Genero="Religião/Espiritualidade",Editora="Civilização Brasileira",Status=  False)     # informações sobre o livro nº 17 "Umbanda: Uma história do Brasil"
+    l18= Livros (Nome="Eu sempre morro", Autor="Kaio Bruno Dias", Genero="Poesia", Editora="Devir, poesia e prosa",Status= False)     # informações sobre o livro nº 18 "Eu sempre morro" 
+    l19= Livros (Nome="Desculpe o exagero, mas não sei sentir pouco", Autor="Geffo Pinheiro", Genero="Poesia", Editora="Astra Cultura",Status=  False)     # informações sobre o livro nº 19 "Desculpe o exagero, mas não sei sentir pouco"
+    l20= Livros (Nome="Os dois morrem no final",Autor="Adam Silveira",Genero= "LGBTQIA+",Editora= "Intrínseca",Status=  False)     # informações sobre o livro nº 20 "Os dois morem no final"
+    l21= Livros (Nome="Combina?",Autor= "Casey McQuiston", Genero="LGBTQIA+",Editora= "Seguinte",Status=  False)     # informações sobre o livro nº 21 "Combina?"
+    l22= Livros (Nome="Manual de Assassinato para boas garotas",Autor= "Holly Jackson", Genero="Literatura Infanto Juvenil",Editora= "Intrínseca", Status= False)     # informações sobre o livro nº "Manual de assassinato para boas garotas"
+    l23= Livros (Nome="As vantagens de ser invisível", Autor="Stephen Chbosky", Genero="Literatura Infanto Juvenil",Editora= "Rocco",Status=  False)     # informações sobre o livro nº "As vantagens de ser invisível"
+    l24= Livros (Nome="Memórias Póstumas de Brás Cubas", Autor="Machado de Assis", Genero="Clássicos", Editora="Penguin e Companhia Das Letras", Status= False  )     # informações sobre o livro nº24 "Memórias póstumas de brás cubas"
+    l25= Livros (Nome="Origens da Mitologia ",Autor="Annette Giesecke", Genero="Mitologia",Editora= "Darkside",Status=  False )     # informações sobre o livro nº 24 "Origens da mitologia"
 
 
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
 
-    livros = {}
+**Foi criado uma biblioteca para instânciar o objeto dentro da classe**
 
-    livros['1']= l1
+    livros = {}     # biblioteca denominada "livros"
+
+    livros['1']= l1 
     livros['2']= l2
     livros['3']= l3
     livros['4']= l4
@@ -153,64 +156,73 @@ guardas as informações denominadas no "def__init__"** <br>
     livros['24']= l24
     livros['25']= l25
 
-        while True:
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
+
+**Esse trecho do código foi realizado estando voltado para o looping principal, tendo as alternativas do menu com suas devidas importações para o código funcionar**
+
+        while True:     # enquanto a ação for verdadeira ela se repetirá em um looping voltando para o menu inicial
             menu()
             resp = int(input("\n---> "))
 
-        if resp == 1:
-            ls()
-            cadastro(Livros, livros)
-            ls()
+        if resp == 1     # opção 1 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            cadastro(Livros, livros)     # o que a alternativa realiza (neste caso o cadastro dos livros)
+            ls()     # para dar um tempo denro do looping
 
-        elif resp == 2:
-            ls()
-            listar_por_genero(livros)
-            ls()
+        elif resp == 2:     # opção 2 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            listar_por_genero(livros)     # o que a alternativa realiza (neste caso a listagem de livros por gênero)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 3:
-            ls()
-            listar_por_autor(livros)
-            ls()
+        elif resp == 3:     # opção 3 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            listar_por_autor(livros)     # o que a alternativa realiza (neste caso a listagem de livros por autor)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 4:
-            ls()
-            listar_por_editora(livros)
-            ls()
+        elif resp == 4:     # opção 4 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            listar_por_editora(livros)     # o que a alternativa realiza (neste caso a listagem de livros por editora)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 5:
-            ls()
-            listar_emprestados(livros)
-            ls()
+        elif resp == 5:     # opção 5 do menu, com suas devidas importações para o código funcionar
+            ls     # para dar um tempo dentro do looping 
+            listar_emprestados(livros)     # o que a alternativa realiza (neste caso a listagem de livros emprestados)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 6:
-            ls()
-            devolver_livro(livros)
-            ls()
+        elif resp == 6:     # opção 6 do menu, com suas devidas importações para o código funcionar
+            ls     # para dar um tempo dentro do looping 
+            devolver_livro(livros)     # o que a alternativa realiza (neste caso a devolução de livros)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 7: 
-            ls()
-            emprestar_livro(livros)
-            ls()
+        elif resp == 7:     # opção 7 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            emprestar_livro(livros)     # o que a alternativa realiza (neste caso o empréstimo de livros)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 8:
-            ls() 
-            remover_livro(livros)
-            ls()
+        elif resp == 8:     # opção 8 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            remover_livro(livros)     # o que a alternativa realiza (neste caso para realizar a remoção de um livro)
+            ls     # para dar um tempo dentro do looping 
 
-        elif resp == 9: 
-            ls()
-            listar(livros)
-            ls()
+        elif resp == 9:     # opção 9 do menu, com suas devidas importações para o código funcionar 
+            ls()     # para dar um tempo dentro do looping 
+            listar(livros)     # o que a alternativa realiza (neste caso para listar todos os livros)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 10:
-            ls()
-            editar(livros)
-            ls()
+        elif resp == 10:     # opção 10 do menu, com suas devidas importações para o código funcionar
+            ls()     # para dar um tempo dentro do looping 
+            editar(livros)     # o que a alternativa realiza (neste caso para editar as informações dos livros)
+            ls()     # para dar um tempo dentro do looping 
 
-        elif resp == 0:
+        elif resp == 0:     # opção 0 do menu, programado e utilizado para sair do programa
             break
 
-        else:
-            print("Número invalido")
+        else:     # opção caso o usuário selecione uma opção inexistente
+            print("Número invalido")     # o texto na qual ira aparecer quaso isso aconteça 
         
             print("Saindo...")
+
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
