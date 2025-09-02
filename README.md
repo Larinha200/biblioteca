@@ -1,10 +1,11 @@
-The background color is `#ffffff` for light mode and `#0969DA` for dark mode.
-
 # PROJETO BIBLIOTECA
 
 ### Explicação do código da subpasta por partes -> classe.py
 
 
+
+ **Parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
+guardas as informações denominadas no "def__init__"** <br>
 
     class Livros:     # criação e declaração de uma nova classe denominada livros
      def __init__(self,Nome,Autor,Genero,Editora,Status):     # parâmetros/valores para criar o objeto
@@ -14,51 +15,57 @@ The background color is `#ffffff` for light mode and `#0969DA` for dark mode.
           self.__Editora__ = Editora     # atributo de instânsia para a editora da obra
           self.__Status__ = Status     # atributo de instância para os status na ual se encontra a obra (emprestado ou disponível)
 
-Parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
-guardas as informações denominadas no "def__init__"
 
 
 
 
-
-     def GetNome (self):     #
-        return self.__Nome__     #
-
-ppppppppppp
+**Já apartir desta parte do código ela tera como função definir um método de classe para poder retornar o valor armazenado no atributo** <br> 
 
 
+     def GetNome (self):     # define uma função e permite acessar outros atributos e métodos da instância 
+        return self.__Nome__     # retorna esse valor atribuido que está armazenado no objeto
         
     
-     def GetAutor (self):
-        return  self.__Autor__
+     def GetAutor (self):     # define uma função e permite acessar outros atributos e métodos da instância
+        return  self.__Autor__     # retorna esse valor atribuido que está armazenado no objeto
+        
     
-     def GetGenero (self):
-        return self.__Genero__
+     def GetGenero (self):     # define uma função e permite acessar outros atributos e métodos da instância
+        return self.__Genero__     # retorna esse valor atribuido que está armazenado no objeto
+        
      
-     def GetEditora (self):
-        return self.__Editora__
+     def GetEditora (self):     # define uma função e permite acessar outros atributos e métodos da instância
+        return self.__Editora__     # retorna esse valor atribuido que está armazenado no objeto
+        
     
-     def GetStatus(self):
-        return "Disponível" if self.__Status__ == False else "Emprestado"
+     def GetStatus(self):     # define uma função e permite acessar outros atributos e métodos da instância
+        return "Disponível" if self.__Status__ == False else "Emprestado"     # retorna esse valor atribuido que está armazenado no objeto
+
+
+**Este trecho   **<br>
+    
+     def SetNome (self, Nome):     #
+        self.__Nome__= Nome     #
+        return self.__Nome__     #
 
     
-     def SetNome (self, Nome):
-        self.__Nome__= Nome
-        return self.__Nome__ 
+     def SetAutor (self,Autor):     #
+        self.__Autor__ = Autor     #
+        return  self.__Autor__     #
+
     
-     def SetAutor (self,Autor):
-        self.__Autor__ = Autor
-        return  self.__Autor__
+     def SetGenero (self, Genero):     #
+        self.__Genero__ = Genero     #
+        return self.__Genero__     #
+
     
-     def SetGenero (self, Genero):
-        self.__Genero__ = Genero
-        return self.__Genero__
+     def SetEditora (self, Editora):     #
+        self.__Editora__ = Editora     #
+        return self.__Editora__     #
+
     
-     def SetEditora (self, Editora):
-        self.__Editora__ = Editora
-        return self.__Editora__
-    
-     def SetStatus (self, Status):
-        self.__Status__ = Status
-        return self.__Status__   
+     def SetStatus (self, Status):     #
+        self.__Status__ = Status     #
+        return self.__Status__      # 
+
 
