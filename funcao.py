@@ -354,7 +354,7 @@ def listar_por_editora(livros):
 
         encontrados = False
         for chave, livro in livros.items():
-            if livro.GetEditora().strip() == editora_escolhida:
+            if livro.GetEditora() == editora_escolhida:
                 encontrados = True
                 print(f"{chave}° - Título: {livro.GetNome()}")
                 print(f"\tAutor: {livro.GetAutor()}")
@@ -462,7 +462,7 @@ def emprestar_livro(livros):
         return
 
     try:
-        codigo = input("Digite o número do livro que deseja emprestar: ")
+        codigo = int(input("Digite o número do livro que deseja emprestar: "))
         if codigo not in livros:
             print("Código de livro não encontrado!")
             ls()
