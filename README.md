@@ -16,7 +16,7 @@ guardas as informações denominadas no "def__init__"** <br>
           self.__Status__ = Status     # atributo de instância para os status na ual se encontra a obra (emprestado ou disponível)
 
 
-
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
 
 **Já apartir desta parte do código ela tera como função definir um método de classe para poder retornar o valor armazenado no atributo** <br> 
@@ -40,6 +40,9 @@ guardas as informações denominadas no "def__init__"** <br>
     
      def GetStatus(self):     # define uma função e permite acessar outros atributos e métodos da instância
         return "Disponível" if self.__Status__ == False else "Emprestado"     # retorna esse valor atribuido que está armazenado no objeto
+
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
 
 **Este trecho   **<br>
