@@ -1,19 +1,31 @@
 # PROJETO BIBLIOTECA
 
-### Explicação do código da subpasta -> classe.py
+### Explicação do código da subpasta por partes -> classe.py
 
-´´´py
 
-    class Livros:
-     def __init__(self,Nome,Autor,Genero,Editora,Status):
-          self.__Nome__ = Nome
-          self.__Autor__ = Autor
-          self.__Genero__ = Genero
-          self.__Editora__ = Editora
-          self.__Status__ = Status
 
-     def GetNome (self):
-        return self.__Nome__ 
+    class Livros:     # criação e declaração de uma nova classe denominada livros
+     def __init__(self,Nome,Autor,Genero,Editora,Status):     # parâmetros/valores para criar o objeto
+          self.__Nome__ = Nome     # atributo de instância para o título do livro
+          self.__Autor__ = Autor     # atributo de instância para o nome do autor
+          self.__Genero__ =  Genero     # atributo de instância para o gênero do çivro
+          self.__Editora__ = Editora     # atributo de instânsia para a editora da obra
+          self.__Status__ = Status     # atributo de instância para os status na ual se encontra a obra (emprestado ou disponível)
+
+Essa parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
+guardas as informações denominadas no "def__init__"
+
+
+
+
+
+     def GetNome (self):     #
+        return self.__Nome__     #
+
+ppppppppppp
+
+
+        
     
      def GetAutor (self):
         return  self.__Autor__
@@ -47,4 +59,4 @@
      def SetStatus (self, Status):
         self.__Status__ = Status
         return self.__Status__   
-´´´
+
