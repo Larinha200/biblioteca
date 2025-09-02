@@ -76,4 +76,7 @@ guardas as informações denominadas no "def__init__"** <br>
 
 ![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
 
+
+### Explicação do código da subpasta por partes -> app.py
+
         
