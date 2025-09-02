@@ -554,18 +554,19 @@ def remover_livro(livros):
 
     ls()
 
-def editar(livros,l1):    
+
+def editar(livros):    
     var = None 
     id = len(livros)
     print("digite: \n1-Nome \n2-Autor \n3-Genero \n4-Editora")    
     resp3 = int(input("----> "))
 
     if resp3 == 1:
-        var = int(input("Digite o número do seu livro: "))
-        for var in livros.itens():
-            if var == id:
+        var = input("Digite o número do seu livro: ")
+        for chave , valor in livros.items():
+            if chave == var:
                 print("la")
                 nome = input("---> ")
-                l1.SetNome(nome)
+                valor.SetNome(nome)
                 print(nome)
         print(var)

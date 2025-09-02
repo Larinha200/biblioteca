@@ -109,7 +109,7 @@ while True:
 
     elif resp == 10:
         ls()
-        editar()
+        editar(livros, l1)
         ls()
 
     elif resp == 0:
