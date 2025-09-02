@@ -554,18 +554,29 @@ def remover_livro(livros):
 
     ls()
 
-def editar(livros,l1):    
-    var = None 
-    id = len(livros)
-    print("digite: \n1-Nome \n2-Autor \n3-Genero \n4-Editora")    
+def editar(livros):
+    print("Digite: \n1-Nome \n2-Autor \n3-Genero \n4-Editora")
     resp3 = int(input("----> "))
 
-    if resp3 == 1:
-        var = int(input("Digite o número do seu livro: "))
-        for var in livros.itens():
-            if var == id:
-                print("la")
-                nome = input("---> ")
-                l1.SetNome(nome)
-                print(nome)
-        print(var)
+    id_livro = int(input("Digite o número do seu livro: "))
+
+    if id_livro in livros:
+        livro = livros[id_livro]  # pega o objeto do livro
+        if resp3 == 1:
+            nome = input("Novo nome: ")
+            livro.SetNome(nome)
+            print("Nome atualizado para:", nome)
+        elif resp3 == 2:
+            autor = input("Novo autor: ")
+            livro.SetAutor(autor)
+        elif resp3 == 3:
+            genero = input("Novo gênero: ")
+            livro.SetGenero(genero)
+        elif resp3 == 4:
+            editora = input("Nova editora: ")
+            livro.SetEditora(editora)
+        else:
+            print("Opção inválida!")
+    else:
+        print("ID não encontrado.")
+
