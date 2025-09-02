@@ -96,12 +96,12 @@ guardas as informações denominadas no "def__init__"** <br>
 
 **Nesse trecho do código foi criado e utilizado uma lista com o objetivo de armazenar as informações dos livros selecionados e disponíveis na biblioteca possuindo todas as informações necessárias, como título da obra, autor, gênero, editora e também os status inicial da obra denominada como disponível = false**
 
-    l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)     # informações sobre o livro nº 1       "Para todos os garotos que eu já amei"
-    l2= Livros (Nome="A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )     #
-    l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )     #
-    l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )     #
-    l5= Livros (Nome="Percy Jackson: A batalha do labirinto", Autor="Rick Riordan",Genero= "Fantasia", Editora=" Intrínseca",Status=  False )     #
-    l6= Livros (Nome="A rainha do nada",Autor= "Holly Black", Genero="Fantasia",Editora= "Galera",Status=  False)     #
+    l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)     # informações sobre o livro nº 1 "Para todos os garotos que eu já amei"
+    l2= Livros (Nome="A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )     # informações sobre o livro nº 2 "A guerra dos furacões"
+    l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )     # informações sobe o livro nº 3 "Tudo é rio"
+    l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )     # informações sobre o livro nº 4 "O hobbit"
+    l5= Livros (Nome="Percy Jackson: A batalha do labirinto", Autor="Rick Riordan",Genero= "Fantasia", Editora=" Intrínseca",Status=  False )     # informações sobre o livro nº 5 "Percy Jackson: A batalha do labirinto"
+    l6= Livros (Nome="A rainha do nada",Autor= "Holly Black", Genero="Fantasia",Editora= "Galera",Status=  False)     # informações sobre 
     l7= Livros (Nome="Casas Estranhas Vol 1",Autor="Uketsu",Genero="Terror" , Editora="Intrínseca",Status=  False )     #
     l8= Livros (Nome="Jantar Secreto",Autor="Raphael Montes",Genero="Mistério",Editora= "Companhia Das Letras",Status=  False)     #
     l9= Livros (Nome="Mentirosos", Autor="E.Lockhart",Genero= "Mistério", Editora="Seguinte", Status= False)     #
