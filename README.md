@@ -96,7 +96,7 @@ guardas as informações denominadas no "def__init__"** <br>
 
 **Nesse trecho do código foi criado e utilizado uma lista com o objetivo de armazenar as informações dos livros selecionados e disponíveis na biblioteca possuindo todas as informações necessárias, como título da obra, autor, gênero, editora e também os status inicial da obra denominada como disponível = false**
 
-    l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)     # informações sobre o livro nº 1 "Para todos os garotos que eu já amei"
+    l1= Livros (Nome="Para todos os garotos que eu já amei",Autor="Jenny Han",Genero= "Romance", Editora= "Intrínseca",Status= False)     # informações sobre o livro nº 1       "Para todos os garotos que eu já amei"
     l2= Livros (Nome="A guerra dos furacões ", Autor="Thea Guanzon",Genero="Romance", Editora="Intrínseca",Status=  False )     #
     l3= Livros (Nome="Tudo é rio",Autor="Carla Madeira",Genero="Ficção", Editora="Record",Status=  False )     #
     l4= Livros (Nome="O Hobbit",Autor="J. R. R. Tolkien", Genero="Ficção", Editora="HarperCollins ", Status= False  )     #
