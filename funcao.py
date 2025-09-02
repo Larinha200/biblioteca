@@ -591,7 +591,6 @@ def editar(livros):
                 print(autor)
                 ls()
                 menu()
-                
             if chave != var:
                     print("esse id n existe")
                     break
@@ -608,7 +607,7 @@ def editar(livros):
                 print(genero)
                 ls()
                 menu()
-
+                
             if chave != var:
                     print("esse id n existe")
                     break
