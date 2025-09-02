@@ -31,7 +31,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Romance', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Romance', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Romance foi adicionado com sucesso!')
             ls()
 
@@ -46,7 +46,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Ficção', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Ficção', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Ficção foi adicionado com sucesso!')
             ls()
 
@@ -61,7 +61,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Fantasia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)]= Livros( Nome= titulo, Autor = autor, Genero = 'Fantasia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Fantasia foi adicionado com sucesso!')
             ls()
 
@@ -76,7 +76,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Terror', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Terror', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Terror foi adicionado com sucesso!')
             ls()
 
@@ -90,7 +90,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Mistério', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)]= Livros( Nome= titulo, Autor = autor, Genero = 'Mistério', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Mistério foi adicionado com sucesso!')
             ls()
 
@@ -104,7 +104,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Distopia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)]= Livros( Nome= titulo, Autor = autor, Genero = 'Distopia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Distopia foi adicionado com sucesso!')
             ls()
 
@@ -118,7 +118,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Biografia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Biografia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Biografia foi adicionado com sucesso!')
             ls()
 
@@ -132,7 +132,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Autobiografia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Autobiografia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Autobiografia foi adicionado com sucesso!')
             ls()
 
@@ -146,7 +146,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Filosofia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Filosofia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Filosofia foi adicionado com sucesso!')
             ls()
 
@@ -160,7 +160,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Religião/Espiritualidade', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Religião/Espiritualidade', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Religião/Espiritualidade foi adicionado com sucesso!')
             ls()
 
@@ -174,7 +174,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Poesia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Poesia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Poesia foi adicionado com sucesso!')
             ls()
 
@@ -188,7 +188,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'LGBTQIA+', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'LGBTQIA+', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero LGBTQIA+ foi adicionado com sucesso!')
             ls()
 
@@ -202,7 +202,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Literatura Infanto Juvenil', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Literatura Infanto Juvenil', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Literatura Infanto Juvenil foi adicionado com sucesso!')
             ls()
 
@@ -217,7 +217,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Clássicos', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)] = Livros( Nome= titulo, Autor = autor, Genero = 'Clássicos', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Clássicos foi adicionado com sucesso!')
             ls()
 
@@ -231,7 +231,7 @@ def cadastro(Livros, livros):
             editora = input('Qual a editora: \n')
             print('\n')
 
-            livros[len(livros) + 1] = Livros( Nome= titulo, Autor = autor, Genero = 'Mitologia', Editora = editora, Status = False)
+            livros[str(len(livros) + 1)]= Livros( Nome= titulo, Autor = autor, Genero = 'Mitologia', Editora = editora, Status = False)
             print(f'O livro {titulo} do autor {autor} da editora {editora} que pertence ao gênero Mitologia foi adicionado com sucesso!')
             ls()
 
