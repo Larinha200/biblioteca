@@ -67,38 +67,44 @@ while True:
         cadastro(Livros, livros)
         ls()
 
-    if resp == 2:
+    elif resp == 2:
         ls()
         listar_por_genero(livros)
         ls()
 
-    if resp == 3:
+    elif resp == 3:
         ls()
         listar_por_autor(livros)
         ls()
 
-    if resp == 4:
+    elif resp == 4:
         ls()
         listar_por_editora(livros)
         ls()
 
-    if resp == 5:
+    elif resp == 5:
         listar_emprestados(livros)
 
-    if resp == 6: 
-        pass
+    elif resp == 6: 
+        devolver_livro(livros)
 
-    if resp == 7: 
-        pass
+    elif resp == 7: 
+        emprestar_livro(livros)
 
-    if resp == 8: 
-        pass
+    elif resp == 8: 
+        remover_livro(livros)
 
-    if resp == 9: 
+    elif resp == 9: 
         ls()
         listar(livros)
         ls()
 
-    if resp == 0:
+    elif resp == 10:
         pass
+
+    elif resp == 0:
+        break
+
+    else:
+        print("Número invalido")
 
