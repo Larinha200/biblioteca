@@ -1,7 +1,7 @@
 import os 
 from classes import *
 from colorama import *
-from app import *
+
 init(autoreset=True)
 
 def ls():
@@ -554,7 +554,7 @@ def remover_livro(livros):
 
     ls()
 
-def editar():    
+def editar(livros,l1):    
     var = None 
     id = len(livros)
     print("digite: \n1-Nome \n2-Autor \n3-Genero \n4-Editora")    
