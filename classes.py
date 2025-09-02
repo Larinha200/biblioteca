@@ -6,6 +6,7 @@ class Livros:
           self.__Editora__ = Editora
           self.__Status__ = Status
 
+
 # get e set
 
     def GetNome (self):
