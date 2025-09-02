@@ -345,7 +345,7 @@ def listar_por_editora(livros):
         if escolha == 0:
             break  # volta pro menu principal
 
-        if escolha < 0 or escolha > 15:   # <-- aqui evita erro
+        if escolha < 0 or escolha > 17:   # <-- aqui evita erro
             print("Opção inválida!\n")
             continue
 
