@@ -1,6 +1,7 @@
 import os 
 from classes import *
 from colorama import *
+from app import *
 init(autoreset=True)
 
 def ls():
