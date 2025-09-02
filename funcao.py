@@ -569,4 +569,17 @@ def editar(livros):
                 nome = input("---> ")
                 valor.SetNome(nome)
                 print(nome)
-        
+            else:
+                print("Esse id n existe")
+    
+    elif resp3 == 2:
+
+        var = input("Digite o número do seu livro: ")
+
+        for chave , valor in livros.items():
+            if chave == var:
+                autor = input("---> ")
+                valor.SetAutor(autor)
+                print(autor)
+            else:
+                print("Esse id n existe")
