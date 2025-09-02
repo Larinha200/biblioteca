@@ -575,6 +575,7 @@ def editar(livros):
                 menu()
             elif chave != var:
                 print("esse id n existe")
+                var = input("Digite o número do seu livro: ")
                 
             
     elif resp3 == 2:
