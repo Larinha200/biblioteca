@@ -364,9 +364,129 @@ def listar_por_editora(livros):
         if not encontrados:
             print("Nenhum livro cadastrado com esta editora.\n")
         ls()
-<<<<<<< HEAD
-
-=======
 
 
->>>>>>> 6a252db518ad4dc9e9d8d3ac3bb077febe59632f
+# Função para listar livros emprestados
+def listar_emprestados(livros):
+    print(" ◆━━━━━━▣ LIVROS EMPRESTADOS ▣━━━━━━◆ \n")
+
+    emprestados = False
+    for chave, livro in livros.items():
+        if livro.GetStatus() == "Emprestado":
+            emprestados = True
+            print(f"{chave}° - Título: {livro.GetNome()}")
+            print(f"\tAutor: {livro.GetAutor()}")
+            print(f"\tGênero: {livro.GetGenero()}")
+            print(f"\tEditora: {livro.GetEditora()}\n")
+
+    if not emprestados:
+        print("Nenhum livro emprestado no momento.\n")
+
+    ls()
+
+# Função para emprestar livro
+def emprestar_livro(livros):
+    print(" ◆━━━━━━▣ EMPRESTAR LIVRO ▣━━━━━━◆ \n")
+
+# Mostrar livros disponíveis
+    disponiveis = False
+    for chave, livro in livros.items():
+        if livro.GetStatus() == "Disponível":
+            disponiveis = True
+            print(f"{chave}° - Título: {livro.GetNome()}")
+            print(f"\tAutor: {livro.GetAutor()}\n")
+
+    if not disponiveis:
+        print("Nenhum livro disponível para empréstimo.\n")
+        ls()
+        return
+
+    try:
+        codigo = input("Digite o número do livro que deseja emprestar: ")
+        if codigo not in livros:
+            print("Código de livro não encontrado!")
+            ls()
+            return
+
+        livro = livros[codigo]
+        if livro.GetStatus() == "Emprestado":
+            print("Este livro já está emprestado!")
+            ls()
+            return
+
+# Realizar empréstimo
+        livro.SetStatus(True)# True significa emprestadoprint(f"\n✅ Livro '{livro.GetNome()}' emprestado com sucesso!")
+
+    except ValueError:
+        print("Código inválido!")
+
+    ls()
+
+# Função para devolver livrodef devolver_livro(livros):
+    print(" ◆━━━━━━▣ DEVOLVER LIVRO ▣━━━━━━◆ \n")
+
+# Mostrar livros emprestados
+    emprestados = True
+    for chave, livro in livros.items():
+        if livro.GetStatus() == "Emprestado":
+            emprestados = True
+            print(f"{chave}° - Título: {livro.GetNome()}")
+            print(f"\tAutor: {livro.GetAutor()}\n")
+
+    if not emprestados:
+        print("Nenhum livro emprestado no momento.\n")
+        ls()
+        return
+
+    try:
+        codigo = input("Digite o número do livro que deseja devolver: ")
+        if codigo not in livros:
+            print("Código de livro não encontrado!")
+            ls()
+            return
+
+        livro = livros[codigo]
+        if livro.GetStatus() == "Disponível":
+            print("Este livro já está disponível!")
+            ls()
+            return
+
+# Realizar devolução
+        livro.SetStatus(False)# False significa disponívelprint
+        (f"\n✅ Livro '{livro.GetNome()}' devolvido com sucesso!")
+
+    except ValueError:
+        print("Código inválido!")
+
+    ls()
+
+# Função para remover livro
+def remover_livro(livros):
+    print(" ◆━━━━━━▣ REMOVER LIVRO ▣━━━━━━◆ \n")
+
+    listar(livros)
+
+    if len(livros) == 0:
+        ls()
+        return
+
+    try:
+        codigo = input("Digite o número do livro que deseja remover: ")
+        if codigo not in livros:
+            print("Código de livro não encontrado!")
+            ls()
+            return
+
+        livro = livros[codigo]
+        confirmacao = input(f"Tem certeza que deseja remover '{livro.GetNome()}'? (S/N): ")
+
+        if confirmacao.upper() == 'S':
+            del livros[codigo]
+            print("Livro removido com sucesso!")
+        else:
+            print("Operação cancelada.")
+
+    except ValueError:
+        print("Código inválido!")
+
+    ls()
