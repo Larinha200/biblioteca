@@ -226,3 +226,25 @@ guardas as informações denominadas no "def__init__"** <br>
 
 
 ![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
+
+### Explicação do código da subpasta por partes -> funcao.py
+
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
+
+
+
+
+
+
+## Alguns problemas ou emprevistos na qual ocorreram durante a realização do código ->
+
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
++ Em certo momento da realização do código a parte de listar os livros por uma determinada editora começou a dar erro somente para certas editoras.
++ A função editar do código não está funcionando, por que ela não reverencio o app.py
++ o emprestar não estava funcionando, pelo fato de não encontrar o código dos livros (problema na leitura de lista)
++ Após editar as informações de alguma obra, ao pesquisar pelo id as atualizações feitas a obra não são salvas e alteradas
