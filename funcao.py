@@ -557,16 +557,16 @@ def remover_livro(livros):
 
 def editar(livros):    
     var = None 
-    id = len(livros)
+    
     print("digite: \n1-Nome \n2-Autor \n3-Genero \n4-Editora")    
     resp3 = int(input("----> "))
-
+    
     if resp3 == 1:
         var = input("Digite o número do seu livro: ")
+
         for chave , valor in livros.items():
             if chave == var:
-                print("la")
                 nome = input("---> ")
                 valor.SetNome(nome)
                 print(nome)
-        print(var)
+        
