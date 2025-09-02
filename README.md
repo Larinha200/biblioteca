@@ -12,7 +12,7 @@
           self.__Editora__ = Editora     # atributo de instânsia para a editora da obra
           self.__Status__ = Status     # atributo de instância para os status na ual se encontra a obra (emprestado ou disponível)
 
-Essa parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
+Parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
 guardas as informações denominadas no "def__init__"
 
 
