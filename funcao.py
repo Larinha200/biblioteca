@@ -365,6 +365,66 @@ def listar_por_editora(livros):
             print("Nenhum livro cadastrado com esta editora.\n")
         ls()
 
+# Função para listar livros por autor
+def listar_por_autor(livros):
+    while True:
+        print(" ◆━━━━━━▣ LISTAR LIVROS POR AUTOR ▣━━━━━━◆ \n")
+        print('Selecione:')
+        print("1- Jenny Han  \n2- Thea Guanzon \n3- HarperCollins \n4- Carla Madeira \n5- J. R. R. Tolkien \n6- Rick Riordan \n7- Holly Black \n8- Uketsu \n9- Raphael Montes  \n10- EE.Lockhart  \n11- Veronica Roth \n12- Suzanne Collins \n13- Marcelo Rubens Paiva \n14- Anne Frank \n15- Franz Kafka  \n16- Fiódor Dostoiévski \n17- Tomás de Kempis \n 18- Luis Antonio Simas \n 19 - Kaio Bruno Dias \n 20- Geffo Pinheiro \n 21- Adam Silveira \n 22- Casey McQuiston\n 23- Holly Jackson\n 24- Stephen Chbosky\n 25 - Machado de Assis\n 26- Annette Giesecke\n 0- Voltar")
+
+        escolha = int(input('\n --> '))
+
+        autor_lista = {
+            1: "Jenny Han",
+            2: "Thea Guanzon",
+            3: "HarperCollins ",
+            4: "Carla Madeira",
+            5: "J. R. R. Tolkien",
+            6: "Rick Riordan ",
+            7: "Holly Black ",
+            8: "Uketsu ",
+            9: "Raphael Montes ",
+            10: "EE.Lockhart ",
+            11: "Veronica Roth",
+            12: "Suzanne Collins",
+            13: "Marcelo Rubens Paiva",
+            14: "Anne Frank",
+            15: "Franz Kafka ",
+            16: "Fiódor Dostoiévski ",
+            17: "Tomás de Kempis ",
+            18: "Luis Antonio Simas ",
+            19: "Kaio Bruno Dias ",
+            20: "Geffo Pinheiro ",
+            21: "Adam Silveira ",
+            22: "Casey McQuiston",
+            23: "Holly Jackson",
+            24: "Stephen Chbosky",
+            25: "Machado de Assis",
+            26: "Annette Giesecke"
+        }
+
+        if escolha == 0:
+            break  # volta pro menu principal
+
+        if escolha < 0 or escolha > 15:   # <-- aqui evita erro
+            print("Opção inválida!\n")
+            continue
+
+        autor_escolhido = autor_lista[escolha]
+        print(f"\n◆━━ LIVROS Da EDITORA: {autor_escolhido} ━━◆\n")
+
+        encontrados = False
+        for chave, livro in livros.items():
+            if livro.GetAutor() == autor_escolhido:
+                encontrados = True
+                print(f"{chave}° - Título: {livro.GetNome()}")
+                print(f"\tEditora: {livro.GetEditora()}")
+                print(f"\tGênero: {livro.GetGenero()}")
+                print(f"\tStatus: {livro.GetStatus()}\n")
+    
+        if not encontrados:
+            print("Nenhum livro cadastrado com este autor.\n")
+        ls()
 
 # Função para listar livros emprestados
 def listar_emprestados(livros):
