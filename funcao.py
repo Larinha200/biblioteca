@@ -573,6 +573,8 @@ def editar(livros):
                 print(nome)
                 ls()
                 menu()
+            else:
+                print("esse id n existe")
                 
             
     elif resp3 == 2:
