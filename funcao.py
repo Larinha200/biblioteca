@@ -562,11 +562,12 @@ def editar(livros):
     resp3 = int(input("----> "))
     
     if resp3 == 1:
+        listar(livros)
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                listar(livros)
+                
                 nome = input("---> ")
                 valor.SetNome(nome)
                 print(nome)
@@ -575,12 +576,12 @@ def editar(livros):
                 
             
     elif resp3 == 2:
-
+        listar(livros)
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                listar(livros)
+                
                 autor = input("---> ")
                 valor.SetAutor(autor)
                 print(autor)
@@ -588,12 +589,12 @@ def editar(livros):
                 menu()
 
     elif resp3 == 3:
-
+        listar(livros)
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                listar(livros)
+                
                 genero = input("---> ")
                 valor.SetGenero(genero)
                 print(genero)
@@ -601,12 +602,12 @@ def editar(livros):
                 menu()
     
     elif resp3 == 4:
-
+        listar(livros)
         var = input("Digite o número do seu livro: ")
 
         for chave , valor in livros.items():
             if chave == var:
-                listar(livros)
+                
                 editora = input("---> ")
                 valor.SetEditora(editora)
                 print(editora)
