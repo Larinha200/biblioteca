@@ -569,9 +569,9 @@ def editar(livros):
                 nome = input("---> ")
                 valor.SetNome(nome)
                 print(nome)
-            else:
-                print("Esse id n existe")
-    
+                ls()
+                menu()
+            
     elif resp3 == 2:
 
         var = input("Digite o número do seu livro: ")
@@ -581,5 +581,5 @@ def editar(livros):
                 autor = input("---> ")
                 valor.SetAutor(autor)
                 print(autor)
-            else:
-                print("Esse id n existe")
+                ls()
+                menu()
