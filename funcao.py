@@ -482,7 +482,8 @@ def emprestar_livro(livros):
 
     ls()
 
-# Função para devolver livrodef devolver_livro(livros):
+# Função para devolver livro
+def devolver_livro(livros):
     print(" ◆━━━━━━▣ DEVOLVER LIVRO ▣━━━━━━◆ \n")
 
 # Mostrar livros emprestados

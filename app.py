@@ -73,7 +73,9 @@ while True:
         ls()
 
     if resp == 3:
-        pass
+        ls()
+        listar_por_autor(livros)
+        ls()
 
     if resp == 4:
         ls()
@@ -81,7 +83,7 @@ while True:
         ls()
 
     if resp == 5:
-        pass
+        listar_emprestados(livros)
 
     if resp == 6: 
         pass
