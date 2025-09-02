@@ -3,6 +3,8 @@
 ### Explicação do código da subpasta por partes -> classe.py
 
 
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
 
  **Parte do código foi utilizada no começo para realizar a criação de uma classe chamada "Livros", para poder criar objetos e 
 guardas as informações denominadas no "def__init__"** <br>
@@ -70,3 +72,8 @@ guardas as informações denominadas no "def__init__"** <br>
      def SetStatus (self, Status):     # parâmetro para passar com um novo nome
         self.__Status__ = Status     # faz uma atribuição do valor passado para o atributo do objeto
         return self.__Status__      # é um método utilizado para retornar o valor na qual acabou de ser salvo
+
+
+![Image](https://github.com/user-attachments/assets/b912d01b-30cd-4384-9855-4a9f54297da9)
+
+        
